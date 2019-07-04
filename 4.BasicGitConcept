@@ -1,0 +1,35 @@
+Basic Concepts
+
+  Repositories
+  
+  Git object Types
+  
+  Index
+  
+  Content-Addressable Names
+  
+  
+  Git Tracks Content
+  
+  Pathname Versus Content
+  
+  Pack Files
+  
+  Object Store Pictures
+  
+
+Git concepts at work
+  Inside the .git Directory
+  
+  Objects Hashes and Blobs
+  
+  Files and Trees
+  
+  A Note on Git's User of SHA1
+  
+  Tree Hierachies
+  
+  Commits
+  
+  Tags
+
