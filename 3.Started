@@ -1,0 +1,86 @@
+The Git Command Line
+  $ git 
+  --> lists its options and the most common subcommands
+  
+  $ git --version
+  
+  $ git commit --amend
+  
+  $ git --git-dir=project.git repack -d
+  
+  $ git commit -m "Fixed a type."
+  same as
+  $ git commit --message="Fixed a type."
+  
+  $ git diff -w master origin -- tools/Makefile
+  
+  # Checkout the tag named "main.c"
+  $ git checkout main.c
+  
+  # Checkout the file named "main.c"
+  $ git checkout -- main.c
+  
+  
+  Quick Introduction to Using Git
+  
+  Creating an Initial Repository
+  
+    $ mkdir ~/public_html
+    $ cd ~/public_html
+    $ echo 'My website is alive!' > index.html
+    
+    $ git init
+    
+    $ git add index.html
+    
+    $ git status
+    
+  Git configuring the Commit Author
+    $ git config user.name "Tinle"
+    $ git congig user.email "tinleduc92@gmail.com"
+    
+  Viewing Your Commits
+    $ git log
+    $ git show <commit number>
+  
+    $ git show-branch --more=10
+ 
+  View commit Differences
+    $ git diff <commit number 2>\<commit number 1>
+   
+  Removing and Renaming Files in Your Repository
+  
+  $ git rm <filename>
+  
+  $ git commit -m " Remove a poem"
+  
+  $ mv foo.html bar.html \\ rename file from foo.html become bar.html
+  
+  $ git mv foo.html bar.html
+  
+  
+ Configurarion Files
+ 
+ .git/config
+    $ git config user.name "TinLe"
+    $ git config user.email "tinleduc92@gmail.com"
+ 
+ ~/.gitconfig
+    $ git config --global user.name "TinLe"
+    $ git config --global user.email "tinleduc92@gmail.com"
+ 
+ /etc/git/config
+ 
+ 
+    $ git config --unset --global user.email \\ to remove a setting
+    
+ 
+  
+   
+  
+   
+    
+    
+  
+  
+  
